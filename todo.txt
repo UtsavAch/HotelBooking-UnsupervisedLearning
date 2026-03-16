@@ -1,1 +1,20 @@
+Task 1.1
+--------
+1. State the concrete segmentation question (RQ1) and the unit of analysis, then produce a short data
+documentation: source, license/terms, what each row represents, time span (if applicable), and known data
+quality issues.
 
+--------
+# Handling the outliers of numeric features
+# Check if there are outliers in categorical features and handle them
+
+-------
+Define the final feature set and the similarity/distance implied by the final representation; document
+all exclusions (especially leakage control).
+
+Task 1.2
+-------
+Provide an initial interpretation of the resulting clusters (cluster profiles).
+The chosen range of 𝑘 must be justified (e.g., domain plausibility, internal-index behaviour, and
+interpretability), and the final selection rule must be explicitly stated.
+Include iK‑means and evaluate it under the same protocol (runtime + validation metrics).

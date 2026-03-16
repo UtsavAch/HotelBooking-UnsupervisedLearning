@@ -3,7 +3,11 @@ in revenue per available room (RevPAR) within the first three to six months afte
 -------------
 Data analytics comes in three core forms: descriptive (examining past performance), 
 predictive (forecasting future trends), and prescriptive (recommending specific actions).
---------------
+---------------------------------------------------------------------------------------------------------------------
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\PROBLEM DESCRIPTION\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+---------------------------------------------------------------------------------------------------------------------
+IN THIS PROJECT:-
+---------------
 Can we segment hotel bookings into meaningful customer clusters to predict cancellation risk, 
 booking behavior, and upsell opportunities?
 --------------
@@ -19,46 +23,6 @@ Who prefers certain meal plans, room types, or booking channels? -> Helps person
 Goal: Identify clusters of bookings/customers with similar patterns, using unsupervised learning, to inform targeted marketing, risk management, and operational planning.
 --------------
 
-Useful columns
--------------
--------------
-Customer behavior / booking features (numerical + categorical):
--------------
-lead_time -> Time between booking and arrival
-stays_in_weekend_nights, stays_in_week_nights -> Stay duration patterns
-
-adults, children, babies -> Group size
-
-previous_cancellations, previous_bookings_not_canceled -> Historical behavior
-
-booking_changes -> Flexibility / risk behavior
-
-days_in_waiting_list -> Patience / booking strategy
-
-total_of_special_requests -> Preferences / spending behavior
-
-Categorical features:
----------------
-hotel -> City vs. resort property
-
-meal -> Meal plan preference
-
-market_segment -> Source of booking
-
-distribution_channel -> How they booked
-
-deposit_type -> Risk management
-
-customer_type -> Contract, transient, group
-
-reserved_room_type, assigned_room_type -> Room preferences
-
-Optional derived features:
-----------------
-total_guests = adults + children + babies
-
-stay_length = stays_in_week_nights + stays_in_weekend_nights
-
 -----------------
 -----------------
 Analysis / Clustering Goals
@@ -73,13 +37,14 @@ Marketing Strategy: Tailor offers or communication for different clusters.
 
 ----------------
 ----------------
-7. How this connects to your project goal
-
-Your clustering goal is:
+Project Goal
+------------
+The clustering goal is:
 Segment hotel bookings into meaningful customer clusters.
+
 The clusters should reflect things like:
 
-Example cluster profiles:
+Example cluster profiles (There can be more customer behavior examples):
 
 Cluster 1 — Last-minute leisure travelers
 ----------------
@@ -99,7 +64,11 @@ Cluster 3 — Families on long vacations
 many guests
 long stays
 higher ADR
+
 These clusters help answer:
 cancellation risk
 marketing segmentation
 upselling opportunities
+---------------------------------------------------------------------------------------------------------------------
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+---------------------------------------------------------------------------------------------------------------------

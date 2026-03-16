@@ -1,0 +1,40 @@
+
+Useful columns
+-------------
+-------------
+Customer behavior / booking features (numerical + categorical):
+-------------
+lead_time -> Time between booking and arrival
+stays_in_weekend_nights, stays_in_week_nights -> Stay duration patterns
+
+adults, children, babies -> Group size
+
+previous_cancellations, previous_bookings_not_canceled -> Historical behavior
+
+booking_changes -> Flexibility / risk behavior
+
+days_in_waiting_list -> Patience / booking strategy
+
+total_of_special_requests -> Preferences / spending behavior
+
+Categorical features:
+---------------
+hotel -> City vs. resort property
+
+meal -> Meal plan preference
+
+market_segment -> Source of booking
+
+distribution_channel -> How they booked
+
+deposit_type -> Risk management
+
+customer_type -> Contract, transient, group
+
+reserved_room_type, assigned_room_type -> Room preferences
+
+Optional derived features:
+----------------
+total_guests = adults + children + babies
+
+stay_length = stays_in_week_nights + stays_in_weekend_nights
