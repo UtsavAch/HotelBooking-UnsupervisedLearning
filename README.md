@@ -1,6 +1,6 @@
-## Start
+## Dataset filepath
 
-Create a "hotel_booking_course_release_v1_pack" folder in root directory and put the dataset csv file inside the folder named (hotel_bookings_course_release_v1.csv)
+'/content/hotel_bookings_course_release_v1.csv'
 
 ## Dataset
 
