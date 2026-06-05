@@ -1,0 +1,21 @@
+anomaly_rank,anomaly_score,cluster_km,hotel,lead_time,total_nights,party_size,previous_cancellations,previous_bookings_not_canceled,adr,market_segment,deposit_type,customer_type,is_canceled,reservation_status,anomaly_type
+1,27.215,5,Resort Hotel,338,2,55.0,0,0,0.0,Direct,No Deposit,Group,1,Canceled,rare booking pattern
+2,24.578,5,Resort Hotel,336,3,50.0,0,0,0.0,Direct,No Deposit,Group,1,Canceled,rare booking pattern
+3,19.314,5,Resort Hotel,304,3,40.0,0,0,0.0,Direct,No Deposit,Group,1,Canceled,rare booking pattern
+4,12.492,5,Resort Hotel,352,4,27.0,0,0,0.0,Direct,No Deposit,Group,1,Canceled,rare booking pattern
+5,12.492,5,Resort Hotel,349,4,27.0,0,0,0.0,Direct,No Deposit,Group,1,Canceled,rare booking pattern
+6,11.957,5,Resort Hotel,361,7,26.0,0,0,0.0,Offline TA/TO,No Deposit,Group,1,Canceled,rare booking pattern
+7,11.957,5,Resort Hotel,354,7,26.0,0,0,0.0,Offline TA/TO,No Deposit,Group,1,Canceled,rare booking pattern
+8,11.957,5,Resort Hotel,347,7,26.0,0,0,0.0,Offline TA/TO,No Deposit,Group,1,Canceled,rare booking pattern
+9,11.957,5,Resort Hotel,340,7,26.0,0,0,0.0,Offline TA/TO,No Deposit,Group,1,Canceled,rare booking pattern
+10,11.957,5,Resort Hotel,333,7,26.0,0,0,0.0,Offline TA/TO,No Deposit,Group,1,Canceled,rare booking pattern
+11,8.952,0,Resort Hotel,126,69,1.0,0,1,110.0,Direct,No Deposit,Transient,0,Check-Out,rare booking pattern
+12,8.833,5,Resort Hotel,334,7,20.0,0,0,0.0,Direct,No Deposit,Group,1,Canceled,rare booking pattern
+13,8.833,5,Resort Hotel,328,7,20.0,0,0,0.0,Direct,No Deposit,Group,1,Canceled,rare booking pattern
+14,7.625,0,Resort Hotel,113,60,1.0,0,0,110.5,Direct,No Deposit,Transient,0,Check-Out,rare booking pattern
+15,6.914,0,Resort Hotel,322,56,2.0,0,0,25.5,Offline TA/TO,No Deposit,Transient,1,Canceled,rare booking pattern
+16,6.908,0,Resort Hotel,71,56,2.0,0,0,28.79,Online TA,No Deposit,Transient,0,Check-Out,rare booking pattern
+17,5.8,0,City Hotel,206,48,2.0,0,0,0.0,Online TA,No Deposit,Transient-Party,0,Check-Out,rare booking pattern
+18,5.66,0,Resort Hotel,1,45,1.0,0,1,42.11,Direct,No Deposit,Transient,0,Check-Out,rare booking pattern
+19,5.496,0,Resort Hotel,30,46,2.0,0,0,0.0,Online TA,No Deposit,Transient,0,Check-Out,rare booking pattern
+20,5.288,3,Resort Hotel,275,2,2.0,26,0,50.0,Offline TA/TO,Non Refund,Transient,1,Canceled,rare: many cancellations

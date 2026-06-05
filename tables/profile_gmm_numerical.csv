@@ -1,0 +1,5 @@
+,lead_time,lead_time,total_nights,total_nights,party_size,party_size,previous_cancellations,previous_cancellations,previous_bookings_not_canceled,previous_bookings_not_canceled,total_of_special_requests,total_of_special_requests,required_car_parking_spaces,required_car_parking_spaces
+,mean,median,mean,median,mean,median,mean,median,mean,median,mean,median,mean,median
+cluster_gmm,,,,,,,,,,,,,,
+0,133.0,103.0,3.59,3.0,2.15,2.0,0.13,0.0,0.01,0.0,0.55,0.0,0.05,0.0
+1,80.03,46.0,3.29,3.0,1.82,2.0,0.05,0.0,0.24,0.0,0.59,0.0,0.08,0.0

@@ -1,0 +1,5 @@
+,lead_time,lead_time,total_nights,total_nights,party_size,party_size,adr,adr,total_of_special_requests,total_of_special_requests,previous_cancellations,previous_cancellations
+,mean,median,mean,median,mean,median,mean,median,mean,median,mean,median
+cluster_ward,,,,,,,,,,,,
+0,106.6,72.0,3.47,3.0,1.99,2.0,103.06,95.0,0.57,0.0,0.08,0.0
+1,13.63,3.0,1.76,1.0,1.24,1.0,62.32,65.0,0.66,0.0,0.48,0.0

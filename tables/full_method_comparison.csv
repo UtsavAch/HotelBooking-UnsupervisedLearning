@@ -1,0 +1,5 @@
+method,k,silhouette,calinski_harabasz,davies_bouldin
+K-Means,7,0.1333,12082.87,1.7578
+iK-Means,3,0.1021,12214.22,2.4358
+Ward,2,0.4496,11088.26,1.1888
+GMM,2,0.0257,2630.92,6.2215
