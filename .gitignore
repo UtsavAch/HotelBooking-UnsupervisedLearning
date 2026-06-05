@@ -1,3 +1,6 @@
 .ipynb_checkpoints
-/hotel_booking_course_release_v1_pack
+content/
 .DS_Store
+Thumbs.db
+__pycache__/
+*.pyc

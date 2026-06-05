@@ -1,54 +1,54 @@
 run_id,date,method,representation_id,parameters,sample_rule,k,seed,silhouette,calinski_harabasz,davies_bouldin,inertia,runtime_s,diagnostics,notes
-km-sweep-k2,2026-06-05T17:28:06,KMeans,R0-standard,"k=2, init=k-means++, n_init=10",full dataset,2,42,0.0916,12238.41,2.8761,1177895.4,0.57,converged,KMeans k-sweep
-km-sweep-k3,2026-06-05T17:28:06,KMeans,R0-standard,"k=3, init=k-means++, n_init=10",full dataset,3,42,0.1024,12537.92,2.2379,1073092.7,0.7,converged,KMeans k-sweep
-km-sweep-k4,2026-06-05T17:28:06,KMeans,R0-standard,"k=4, init=k-means++, n_init=10",full dataset,4,42,0.1117,12666.56,2.0401,984872.4,0.76,converged,KMeans k-sweep
-km-sweep-k5,2026-06-05T17:28:06,KMeans,R0-standard,"k=5, init=k-means++, n_init=10",full dataset,5,42,0.1254,12854.73,1.8844,907412.3,0.67,converged,KMeans k-sweep
-km-sweep-k6,2026-06-05T17:28:06,KMeans,R0-standard,"k=6, init=k-means++, n_init=10",full dataset,6,42,0.1264,12636.53,1.8076,848883.0,0.66,converged,KMeans k-sweep
-km-sweep-k7,2026-06-05T17:28:06,KMeans,R0-standard,"k=7, init=k-means++, n_init=10",full dataset,7,42,0.1333,12082.87,1.7578,807634.2,0.73,converged,KMeans k-sweep
-km-sweep-k8,2026-06-05T17:28:06,KMeans,R0-standard,"k=8, init=k-means++, n_init=10",full dataset,8,42,0.1125,11414.82,1.9284,777588.4,0.88,converged,KMeans k-sweep
-ikmeans-auto,2026-06-05T17:28:06,iKMeans,R0-standard,min_cluster_size=10,subsample=20000,3,42,0.1021,12214.22,2.4358,,0.4,3 anomalous clusters extracted (seed=42),iKMeans auto-k=3. Stability: k varies across seeds (see ikm_stab table).
-ikmeans-stab-seed42,2026-06-05T17:28:06,iKMeans-stability,R0-standard,min_cluster_size=10,subsample=20000,3,42,0.1021,12214.22,2.4358,,,k=3 extracted,iKMeans seed stability
-ikmeans-stab-seed7,2026-06-05T17:28:06,iKMeans-stability,R0-standard,min_cluster_size=10,subsample=20000,3,7,0.1095,12212.0,2.4399,,,k=3 extracted,iKMeans seed stability
-ikmeans-stab-seed13,2026-06-05T17:28:06,iKMeans-stability,R0-standard,min_cluster_size=10,subsample=20000,4,13,0.0957,10718.05,2.4663,,,k=4 extracted,iKMeans seed stability
-ikmeans-stab-seed99,2026-06-05T17:28:06,iKMeans-stability,R0-standard,min_cluster_size=10,subsample=20000,7,99,0.1108,10786.99,2.0387,,,k=7 extracted,iKMeans seed stability
-ikmeans-stab-seed2025,2026-06-05T17:28:06,iKMeans-stability,R0-standard,min_cluster_size=10,subsample=20000,8,2025,0.1053,10414.79,2.0067,,,k=8 extracted,iKMeans seed stability
-ikmeans-stab-seed2024,2026-06-05T17:28:06,iKMeans-stability,R0-standard,min_cluster_size=10,subsample=20000,7,2024,0.102,10663.39,2.0617,,,k=7 extracted,iKMeans seed stability
-ikmeans-stab-seed2004,2026-06-05T17:28:06,iKMeans-stability,R0-standard,min_cluster_size=10,subsample=20000,3,2004,0.1021,12212.73,2.4332,,,k=3 extracted,iKMeans seed stability
-ikmeans-stab-seed2005,2026-06-05T17:28:06,iKMeans-stability,R0-standard,min_cluster_size=10,subsample=20000,5,2005,0.09,10273.07,2.277,,,k=5 extracted,iKMeans seed stability
-ikmeans-stab-seed2020,2026-06-05T17:28:06,iKMeans-stability,R0-standard,min_cluster_size=10,subsample=20000,10,2020,0.0893,8742.07,2.1923,,,k=10 extracted,iKMeans seed stability
-ikmeans-stab-seed100,2026-06-05T17:28:06,iKMeans-stability,R0-standard,min_cluster_size=10,subsample=20000,2,100,0.1502,11966.91,2.5434,,,k=2 extracted,iKMeans seed stability
-ikmeans-stab-seed21,2026-06-05T17:28:06,iKMeans-stability,R0-standard,min_cluster_size=10,subsample=20000,2,21,0.1488,11966.04,2.5527,,,k=2 extracted,iKMeans seed stability
-km-stab-seed42,2026-06-05T17:28:06,KMeans-stability,R0-standard,"k=7, n_init=10",full dataset,7,42,0.1333,12082.87,1.7578,,,seed stability,KMeans stability
-km-stab-seed7,2026-06-05T17:28:06,KMeans-stability,R0-standard,"k=7, n_init=10",full dataset,7,7,0.1404,12082.87,1.7578,,,seed stability,KMeans stability
-km-stab-seed13,2026-06-05T17:28:06,KMeans-stability,R0-standard,"k=7, n_init=10",full dataset,7,13,0.1385,12082.87,1.7581,,,seed stability,KMeans stability
-km-stab-seed99,2026-06-05T17:28:06,KMeans-stability,R0-standard,"k=7, n_init=10",full dataset,7,99,0.1362,12082.86,1.7582,,,seed stability,KMeans stability
-km-stab-seed2025,2026-06-05T17:28:06,KMeans-stability,R0-standard,"k=7, n_init=10",full dataset,7,2025,0.1346,12082.86,1.7582,,,seed stability,KMeans stability
-km-stab-seed2024,2026-06-05T17:28:06,KMeans-stability,R0-standard,"k=7, n_init=10",full dataset,7,2024,0.135,12082.87,1.7581,,,seed stability,KMeans stability
-km-stab-seed2004,2026-06-05T17:28:06,KMeans-stability,R0-standard,"k=7, n_init=10",full dataset,7,2004,0.1159,11868.3,1.9514,,,seed stability,KMeans stability
-km-stab-seed2005,2026-06-05T17:28:06,KMeans-stability,R0-standard,"k=7, n_init=10",full dataset,7,2005,0.1163,11868.29,1.9517,,,seed stability,KMeans stability
-km-stab-seed2020,2026-06-05T17:28:06,KMeans-stability,R0-standard,"k=7, n_init=10",full dataset,7,2020,0.1393,12082.87,1.7581,,,seed stability,KMeans stability
-km-stab-seed100,2026-06-05T17:28:06,KMeans-stability,R0-standard,"k=7, n_init=10",full dataset,7,100,0.1164,11868.29,1.9517,,,seed stability,KMeans stability
-km-stab-seed21,2026-06-05T17:28:06,KMeans-stability,R0-standard,"k=7, n_init=10",full dataset,7,21,0.1361,12082.87,1.7579,,,seed stability,KMeans stability
-km-sens-R0-standard,2026-06-05T17:28:06,KMeans-sensitivity,R0-standard,"k=7, scaler=StandardScaler",full dataset,7,42,0.1333,12082.87,1.7578,,,ARI_R0_R1=0.2835,Scaler sensitivity. ARI=0.2835 — LIMITATION if < 0.5
-km-sens-R1-robust,2026-06-05T17:28:06,KMeans-sensitivity,R1-robust,"k=7, scaler=RobustScaler",full dataset,7,42,0.1103,10577.14,2.1589,,,ARI_R0_R1=0.2835,Scaler sensitivity. ARI=0.2835 — LIMITATION if < 0.5
-ward-k2,2026-06-05T17:28:06,Ward,R0-standard,"k=2, linkage=ward",subsample=10000,2,42,0.4496,11088.26,1.1888,,,"ARI_vs_KMeans=0.0222, dendrogram_k=6",Ward hierarchical Task 2. Dendrogram and Silhouette may disagree.
-gmm-sweep-k2,2026-06-05T17:28:06,GMM-sweep,R0-standard,"k=2, covariance_type=full, n_init=5",subsample=20000,2,42,0.1884,845.72,3.3898,,0.81,"converged=True, bic=-5112648.3","GMM k-sweep. Best BIC k=8, best Sil k=2"
-gmm-sweep-k3,2026-06-05T17:28:06,GMM-sweep,R0-standard,"k=3, covariance_type=full, n_init=5",subsample=20000,3,42,0.0441,825.89,3.8488,,1.22,"converged=True, bic=-6726016.1","GMM k-sweep. Best BIC k=8, best Sil k=2"
-gmm-sweep-k4,2026-06-05T17:28:06,GMM-sweep,R0-standard,"k=4, covariance_type=full, n_init=5",subsample=20000,4,42,0.0309,782.91,3.984,,2.94,"converged=True, bic=-7162172.8","GMM k-sweep. Best BIC k=8, best Sil k=2"
-gmm-sweep-k5,2026-06-05T17:28:06,GMM-sweep,R0-standard,"k=5, covariance_type=full, n_init=5",subsample=20000,5,42,0.0068,502.36,4.4165,,3.2,"converged=True, bic=-7616131.7","GMM k-sweep. Best BIC k=8, best Sil k=2"
-gmm-sweep-k6,2026-06-05T17:28:06,GMM-sweep,R0-standard,"k=6, covariance_type=full, n_init=5",subsample=20000,6,42,-0.0161,372.25,5.4182,,3.01,"converged=True, bic=-7755344.9","GMM k-sweep. Best BIC k=8, best Sil k=2"
-gmm-sweep-k7,2026-06-05T17:28:06,GMM-sweep,R0-standard,"k=7, covariance_type=full, n_init=5",subsample=20000,7,42,-0.0203,346.34,5.0824,,3.78,"converged=True, bic=-7902938.2","GMM k-sweep. Best BIC k=8, best Sil k=2"
-gmm-sweep-k8,2026-06-05T17:28:06,GMM-sweep,R0-standard,"k=8, covariance_type=full, n_init=5",subsample=20000,8,42,0.0165,495.57,4.3468,,5.36,"converged=True, bic=-8017179.0","GMM k-sweep. Best BIC k=8, best Sil k=2"
-gmm-stab-seed42,2026-06-05T17:28:06,GMM-stability,R0-standard,"k=2, covariance_type=full, n_init=5",full dataset,2,42,0.0257,2630.92,6.2215,,,seed stability,GMM stability
-gmm-stab-seed7,2026-06-05T17:28:06,GMM-stability,R0-standard,"k=2, covariance_type=full, n_init=5",full dataset,2,7,0.1949,5970.72,2.9889,,,seed stability,GMM stability
-gmm-stab-seed13,2026-06-05T17:28:06,GMM-stability,R0-standard,"k=2, covariance_type=full, n_init=5",full dataset,2,13,0.2031,5970.72,2.9889,,,seed stability,GMM stability
-gmm-stab-seed99,2026-06-05T17:28:06,GMM-stability,R0-standard,"k=2, covariance_type=full, n_init=5",full dataset,2,99,0.0267,3214.47,5.5157,,,seed stability,GMM stability
-gmm-stab-seed2025,2026-06-05T17:28:06,GMM-stability,R0-standard,"k=2, covariance_type=full, n_init=5",full dataset,2,2025,0.0217,2274.65,6.5761,,,seed stability,GMM stability
-gmm-stab-seed2024,2026-06-05T17:28:06,GMM-stability,R0-standard,"k=2, covariance_type=full, n_init=5",full dataset,2,2024,0.2275,5970.72,2.9889,,,seed stability,GMM stability
-gmm-stab-seed2004,2026-06-05T17:28:06,GMM-stability,R0-standard,"k=2, covariance_type=full, n_init=5",full dataset,2,2004,0.0276,3214.47,5.5157,,,seed stability,GMM stability
-gmm-stab-seed2005,2026-06-05T17:28:06,GMM-stability,R0-standard,"k=2, covariance_type=full, n_init=5",full dataset,2,2005,0.0281,3214.47,5.5157,,,seed stability,GMM stability
-gmm-stab-seed2020,2026-06-05T17:28:06,GMM-stability,R0-standard,"k=2, covariance_type=full, n_init=5",full dataset,2,2020,0.2109,5970.72,2.9889,,,seed stability,GMM stability
-gmm-stab-seed100,2026-06-05T17:28:06,GMM-stability,R0-standard,"k=2, covariance_type=full, n_init=5",full dataset,2,100,0.2268,5970.72,2.9889,,,seed stability,GMM stability
-gmm-stab-seed21,2026-06-05T17:28:06,GMM-stability,R0-standard,"k=2, covariance_type=full, n_init=5",full dataset,2,21,0.2278,5970.72,2.9889,,,seed stability,GMM stability
-spectral-knn10,2026-06-05T17:28:06,SpectralClustering,R0-standard,"k=4, n_neighbors=10, laplacian=normalised",subsample=5000,4,42,0.0495,9971.82,1.7032,,52.37,"eigengap_k=4, used_k=4, sigma=4.1253",ARI_vs_KMeans=0.0604. Eigengap suggests k=4.
-km-umap20d-k6,2026-06-05T17:28:06,KMeans-UMAP20D,R0-UMAP20D,"k=6, umap_n_neighbors=30, n_components=20",full dataset,6,42,0.393,25160.16,1.4747,,37.43,"ARI_vs_73D=0.1219, tw_umap20=0.9482",UMAP-20D preprocessing. Silhouette NOT comparable to 73D.
+km-sweep-k2,2026-06-05T20:43:21,KMeans,R0-standard,"k=2, init=k-means++, n_init=10",full dataset,2,42,0.0916,12238.41,2.8761,1177895.4,0.56,converged,KMeans k-sweep
+km-sweep-k3,2026-06-05T20:43:21,KMeans,R0-standard,"k=3, init=k-means++, n_init=10",full dataset,3,42,0.1024,12537.92,2.2379,1073092.7,0.63,converged,KMeans k-sweep
+km-sweep-k4,2026-06-05T20:43:21,KMeans,R0-standard,"k=4, init=k-means++, n_init=10",full dataset,4,42,0.1117,12666.56,2.0401,984872.4,0.61,converged,KMeans k-sweep
+km-sweep-k5,2026-06-05T20:43:21,KMeans,R0-standard,"k=5, init=k-means++, n_init=10",full dataset,5,42,0.1254,12854.73,1.8844,907412.3,0.67,converged,KMeans k-sweep
+km-sweep-k6,2026-06-05T20:43:21,KMeans,R0-standard,"k=6, init=k-means++, n_init=10",full dataset,6,42,0.1264,12636.53,1.8076,848883.0,0.77,converged,KMeans k-sweep
+km-sweep-k7,2026-06-05T20:43:21,KMeans,R0-standard,"k=7, init=k-means++, n_init=10",full dataset,7,42,0.1333,12082.87,1.7578,807634.2,0.72,converged,KMeans k-sweep
+km-sweep-k8,2026-06-05T20:43:21,KMeans,R0-standard,"k=8, init=k-means++, n_init=10",full dataset,8,42,0.1125,11414.82,1.9284,777588.4,0.85,converged,KMeans k-sweep
+ikmeans-auto,2026-06-05T20:43:21,iKMeans,R0-standard,min_cluster_size=10,subsample=20000,3,42,0.1021,12214.22,2.4358,,0.38,3 anomalous clusters extracted (seed=42),iKMeans auto-k=3. Stability: k varies across seeds (see ikm_stab table).
+ikmeans-stab-seed42,2026-06-05T20:43:21,iKMeans-stability,R0-standard,min_cluster_size=10,subsample=20000,3,42,0.1021,12214.22,2.4358,,,k=3 extracted,iKMeans seed stability
+ikmeans-stab-seed7,2026-06-05T20:43:21,iKMeans-stability,R0-standard,min_cluster_size=10,subsample=20000,3,7,0.1095,12212.0,2.4399,,,k=3 extracted,iKMeans seed stability
+ikmeans-stab-seed13,2026-06-05T20:43:21,iKMeans-stability,R0-standard,min_cluster_size=10,subsample=20000,4,13,0.0957,10718.05,2.4663,,,k=4 extracted,iKMeans seed stability
+ikmeans-stab-seed99,2026-06-05T20:43:21,iKMeans-stability,R0-standard,min_cluster_size=10,subsample=20000,7,99,0.1108,10786.99,2.0387,,,k=7 extracted,iKMeans seed stability
+ikmeans-stab-seed2025,2026-06-05T20:43:21,iKMeans-stability,R0-standard,min_cluster_size=10,subsample=20000,8,2025,0.1053,10414.79,2.0067,,,k=8 extracted,iKMeans seed stability
+ikmeans-stab-seed2024,2026-06-05T20:43:21,iKMeans-stability,R0-standard,min_cluster_size=10,subsample=20000,7,2024,0.102,10663.39,2.0617,,,k=7 extracted,iKMeans seed stability
+ikmeans-stab-seed2004,2026-06-05T20:43:21,iKMeans-stability,R0-standard,min_cluster_size=10,subsample=20000,3,2004,0.1021,12212.73,2.4332,,,k=3 extracted,iKMeans seed stability
+ikmeans-stab-seed2005,2026-06-05T20:43:21,iKMeans-stability,R0-standard,min_cluster_size=10,subsample=20000,5,2005,0.09,10273.07,2.277,,,k=5 extracted,iKMeans seed stability
+ikmeans-stab-seed2020,2026-06-05T20:43:21,iKMeans-stability,R0-standard,min_cluster_size=10,subsample=20000,10,2020,0.0893,8742.07,2.1923,,,k=10 extracted,iKMeans seed stability
+ikmeans-stab-seed100,2026-06-05T20:43:21,iKMeans-stability,R0-standard,min_cluster_size=10,subsample=20000,2,100,0.1502,11966.91,2.5434,,,k=2 extracted,iKMeans seed stability
+ikmeans-stab-seed21,2026-06-05T20:43:21,iKMeans-stability,R0-standard,min_cluster_size=10,subsample=20000,2,21,0.1488,11966.04,2.5527,,,k=2 extracted,iKMeans seed stability
+km-stab-seed42,2026-06-05T20:43:21,KMeans-stability,R0-standard,"k=7, n_init=10",full dataset,7,42,0.1333,12082.87,1.7578,,,seed stability,KMeans stability
+km-stab-seed7,2026-06-05T20:43:21,KMeans-stability,R0-standard,"k=7, n_init=10",full dataset,7,7,0.1404,12082.87,1.7578,,,seed stability,KMeans stability
+km-stab-seed13,2026-06-05T20:43:21,KMeans-stability,R0-standard,"k=7, n_init=10",full dataset,7,13,0.1385,12082.87,1.7581,,,seed stability,KMeans stability
+km-stab-seed99,2026-06-05T20:43:21,KMeans-stability,R0-standard,"k=7, n_init=10",full dataset,7,99,0.1362,12082.86,1.7582,,,seed stability,KMeans stability
+km-stab-seed2025,2026-06-05T20:43:21,KMeans-stability,R0-standard,"k=7, n_init=10",full dataset,7,2025,0.1346,12082.86,1.7582,,,seed stability,KMeans stability
+km-stab-seed2024,2026-06-05T20:43:21,KMeans-stability,R0-standard,"k=7, n_init=10",full dataset,7,2024,0.135,12082.87,1.7581,,,seed stability,KMeans stability
+km-stab-seed2004,2026-06-05T20:43:21,KMeans-stability,R0-standard,"k=7, n_init=10",full dataset,7,2004,0.1159,11868.3,1.9514,,,seed stability,KMeans stability
+km-stab-seed2005,2026-06-05T20:43:21,KMeans-stability,R0-standard,"k=7, n_init=10",full dataset,7,2005,0.1163,11868.29,1.9517,,,seed stability,KMeans stability
+km-stab-seed2020,2026-06-05T20:43:21,KMeans-stability,R0-standard,"k=7, n_init=10",full dataset,7,2020,0.1393,12082.87,1.7581,,,seed stability,KMeans stability
+km-stab-seed100,2026-06-05T20:43:21,KMeans-stability,R0-standard,"k=7, n_init=10",full dataset,7,100,0.1164,11868.29,1.9517,,,seed stability,KMeans stability
+km-stab-seed21,2026-06-05T20:43:21,KMeans-stability,R0-standard,"k=7, n_init=10",full dataset,7,21,0.1361,12082.87,1.7579,,,seed stability,KMeans stability
+km-sens-R0-standard,2026-06-05T20:43:21,KMeans-sensitivity,R0-standard,"k=7, scaler=StandardScaler",full dataset,7,42,0.1333,12082.87,1.7578,,,ARI_R0_R1=0.2835,Scaler sensitivity. ARI=0.2835 — LIMITATION if < 0.5
+km-sens-R1-robust,2026-06-05T20:43:21,KMeans-sensitivity,R1-robust,"k=7, scaler=RobustScaler",full dataset,7,42,0.1103,10577.14,2.1589,,,ARI_R0_R1=0.2835,Scaler sensitivity. ARI=0.2835 — LIMITATION if < 0.5
+ward-k2,2026-06-05T20:43:21,Ward,R0-standard,"k=2, linkage=ward",subsample=10000,2,42,0.4496,11088.26,1.1888,,,"ARI_vs_KMeans=0.0222, dendrogram_k=6",Ward hierarchical Task 2. Dendrogram and Silhouette may disagree.
+gmm-sweep-k2,2026-06-05T20:43:21,GMM-sweep,R0-standard,"k=2, covariance_type=full, n_init=5",subsample=20000,2,42,0.1884,845.72,3.3898,,0.89,"converged=True, bic=-5112648.3","GMM k-sweep. Best BIC k=8, best Sil k=2"
+gmm-sweep-k3,2026-06-05T20:43:21,GMM-sweep,R0-standard,"k=3, covariance_type=full, n_init=5",subsample=20000,3,42,0.0441,825.89,3.8488,,1.24,"converged=True, bic=-6726016.1","GMM k-sweep. Best BIC k=8, best Sil k=2"
+gmm-sweep-k4,2026-06-05T20:43:21,GMM-sweep,R0-standard,"k=4, covariance_type=full, n_init=5",subsample=20000,4,42,0.0309,782.91,3.984,,2.93,"converged=True, bic=-7162172.8","GMM k-sweep. Best BIC k=8, best Sil k=2"
+gmm-sweep-k5,2026-06-05T20:43:21,GMM-sweep,R0-standard,"k=5, covariance_type=full, n_init=5",subsample=20000,5,42,0.0068,502.36,4.4165,,3.17,"converged=True, bic=-7616131.7","GMM k-sweep. Best BIC k=8, best Sil k=2"
+gmm-sweep-k6,2026-06-05T20:43:21,GMM-sweep,R0-standard,"k=6, covariance_type=full, n_init=5",subsample=20000,6,42,-0.0161,372.25,5.4182,,2.99,"converged=True, bic=-7755344.9","GMM k-sweep. Best BIC k=8, best Sil k=2"
+gmm-sweep-k7,2026-06-05T20:43:21,GMM-sweep,R0-standard,"k=7, covariance_type=full, n_init=5",subsample=20000,7,42,-0.0203,346.34,5.0824,,3.7,"converged=True, bic=-7902938.2","GMM k-sweep. Best BIC k=8, best Sil k=2"
+gmm-sweep-k8,2026-06-05T20:43:21,GMM-sweep,R0-standard,"k=8, covariance_type=full, n_init=5",subsample=20000,8,42,0.0165,495.57,4.3468,,5.29,"converged=True, bic=-8017179.0","GMM k-sweep. Best BIC k=8, best Sil k=2"
+gmm-stab-seed42,2026-06-05T20:43:21,GMM-stability,R0-standard,"k=2, covariance_type=full, n_init=5",full dataset,2,42,0.0257,2630.92,6.2215,,,seed stability,GMM stability
+gmm-stab-seed7,2026-06-05T20:43:21,GMM-stability,R0-standard,"k=2, covariance_type=full, n_init=5",full dataset,2,7,0.1949,5970.72,2.9889,,,seed stability,GMM stability
+gmm-stab-seed13,2026-06-05T20:43:21,GMM-stability,R0-standard,"k=2, covariance_type=full, n_init=5",full dataset,2,13,0.2031,5970.72,2.9889,,,seed stability,GMM stability
+gmm-stab-seed99,2026-06-05T20:43:21,GMM-stability,R0-standard,"k=2, covariance_type=full, n_init=5",full dataset,2,99,0.0267,3214.47,5.5157,,,seed stability,GMM stability
+gmm-stab-seed2025,2026-06-05T20:43:21,GMM-stability,R0-standard,"k=2, covariance_type=full, n_init=5",full dataset,2,2025,0.0217,2274.65,6.5761,,,seed stability,GMM stability
+gmm-stab-seed2024,2026-06-05T20:43:21,GMM-stability,R0-standard,"k=2, covariance_type=full, n_init=5",full dataset,2,2024,0.2275,5970.72,2.9889,,,seed stability,GMM stability
+gmm-stab-seed2004,2026-06-05T20:43:21,GMM-stability,R0-standard,"k=2, covariance_type=full, n_init=5",full dataset,2,2004,0.0276,3214.47,5.5157,,,seed stability,GMM stability
+gmm-stab-seed2005,2026-06-05T20:43:21,GMM-stability,R0-standard,"k=2, covariance_type=full, n_init=5",full dataset,2,2005,0.0281,3214.47,5.5157,,,seed stability,GMM stability
+gmm-stab-seed2020,2026-06-05T20:43:21,GMM-stability,R0-standard,"k=2, covariance_type=full, n_init=5",full dataset,2,2020,0.2109,5970.72,2.9889,,,seed stability,GMM stability
+gmm-stab-seed100,2026-06-05T20:43:21,GMM-stability,R0-standard,"k=2, covariance_type=full, n_init=5",full dataset,2,100,0.2268,5970.72,2.9889,,,seed stability,GMM stability
+gmm-stab-seed21,2026-06-05T20:43:21,GMM-stability,R0-standard,"k=2, covariance_type=full, n_init=5",full dataset,2,21,0.2278,5970.72,2.9889,,,seed stability,GMM stability
+spectral-knn10,2026-06-05T20:43:21,SpectralClustering,R0-standard,"k=4, n_neighbors=10, laplacian=normalised",subsample=5000,4,42,0.0495,9971.82,1.7032,,50.42,"eigengap_k=4, used_k=4, sigma=4.1253",ARI_vs_KMeans=0.0604. Eigengap suggests k=4.
+km-umap20d-k7,2026-06-05T20:43:21,KMeans-UMAP20D,R0-UMAP20D,"k=7, umap_n_neighbors=30, n_components=20",full dataset,7,42,0.4036,22569.99,1.5372,,36.64,"ARI_vs_73D=0.1238, tw_umap20=0.9464",UMAP-20D preprocessing. Silhouette NOT comparable to 73D.
